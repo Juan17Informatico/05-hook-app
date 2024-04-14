@@ -1,6 +1,10 @@
 import { useState } from "react";
 
-
+/**
+ * 
+ * @param {Object} initialForm 
+ * @returns 
+ */
 export const useForm = ( initialForm = {} ) => {
 
     const [formState, setFormState] = useState(initialForm);
